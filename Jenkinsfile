@@ -36,7 +36,7 @@ expression {
 env.GIT_BRANCH == 'origin/main'
 }
 }
-steps{
+steps {
 sh '''
 echo "Deploying to server..."
 mkdir -p $DEPLOY_DIR
